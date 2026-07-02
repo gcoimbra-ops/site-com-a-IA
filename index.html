@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa do Mundo | O Maior Espetáculo da Terra</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Mundo<span>Bola</span></div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#campeoes">Grandes Campeões</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>A Paixão que Une o Mundo</h1>
+            <p>Acompanhe a história, as curiosidades e a emoção do maior torneio de futebol do planeta.</p>
+            <button onclick="scrollParaSection('#historia')">Explorar História</button>
+        </div>
+    </section>
+
+    <section id="historia" class="cards-section">
+        <h2>Momentos Marcantes</h2>
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-icon">🏆</div>
+                <h3>O Início</h3>
+                <p>A primeira Copa do Mundo aconteceu no Uruguai em 1930, com apenas 13 seleções convidadas.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">⭐</div>
+                <h3>O Maior Vencedor</h3>
+                <p>O Brasil é o único país pentacampeão mundial (1958, 1962, 1970, 1994 e 2002) e o único a jogar todas as edições.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">⚽</div>
+                <h3>Maior Artilheiro</h3>
+                <p>O alemão Miroslav Klose lidera o ranking histórico com 16 gols marcados em Copas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="campeoes" class="interactive-section">
+        <h2>Quem é o Rei do Futebol?</h2>
+        <p>Clique no botão para descobrir uma curiosidade aleatória sobre as Copas!</p>
+        <button id="btn-curiosidade">Gerar Curiosidade</button>
+        <div id="caixa-curiosidade" class="curiosity-box">
+            Clique no botão acima para ver!
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido para os Amantes do Futebol</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
